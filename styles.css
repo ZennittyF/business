@@ -1,0 +1,259 @@
+/*-------------------------------FONTS, TEXT AND GENERAL-------------------------------*/
+
+h1, h2, h3, h4, h5, h6, p, label, input, table, a {
+    color:#183153;
+    
+}
+
+
+
+body {
+    background-color: white;
+    margin: 0;
+    background-position: 0;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400px;
+    
+}
+
+hr {
+    border-style: dotted none none none;
+    height: 0;
+    width: 60%;
+    color: #183153;
+    border-width: 10px;
+}
+
+.short {
+    width: 30%;
+    color: #98a6b9;
+}
+
+/*-------------------------------TEXT CLASSES-------------------------------*/
+
+.PageTitle, .PageSubTitle {
+    color: #2b5999;
+    margin: 0px;
+}
+
+.PageTitle {
+    font-size: 500%;
+    margin-top: 85px;
+}
+
+.PageSubTitle {
+    font-size: 200%;
+}
+
+.text-highlight {
+    color: #2b5999;
+}
+
+.nav-bar-text1 {
+    position: absolute;
+    display: block;
+    right: 10px;
+    bottom: 28px;
+    
+}
+
+.nav-bar-text2, .nav-bar-text3, .nav-bar-text4, .nav-bar-text5, .nav-bar-text6 {
+text-align: left;
+display: inline-block;
+padding-right: 40px;
+
+}
+
+.Gamepad-bubble-text {
+    margin-right: 20%;
+}
+
+.Html-bubble-text {
+    margin-left: 20%;
+}
+
+.page-end {
+    position: relative;
+    right: 10px;
+}
+
+
+/*-------------------------------DIVS-------------------------------*/
+
+.top-container {
+    height: 300px;
+    width: 90%;
+    border-radius: 0;
+    padding: 50px;
+    background-color: #ebeff3;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    margin-top: 0;
+    margin-left: 20px;
+    position: absolute;
+    top: 0;
+    
+}
+.middle-container {
+    width: 90%;
+    margin-left: 20px;
+    
+}
+.bottom-container {
+    width: 90%;
+    margin-left: 20px;
+}
+
+.nav-bar:not(:hover) {
+    position: fixed;
+    display: inline;
+    z-index: 999;
+    padding: 10px;
+    background-color: white;
+    width: 10%;
+    height: 54px;
+    border-bottom-left-radius: 30px;
+    right: 0;
+    color: white;
+    transition-duration: 1s;
+    
+}
+.nav-bar {
+    overflow: hidden;
+}
+.title-box {
+    position: relative;
+    top: 100px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 30px;
+    width: max-content;
+    height: max-content;
+}
+
+.skill-row1 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.skill-row2 {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.vr1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0;
+    z-index: 999;
+    height: 100%;
+    border-style: none outset none none;
+    border-width: 20px;
+    border-color: #183153;
+}
+
+.vr2 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 0;
+    z-index: 999;
+    height: 100%;
+    border-style: none outset none none;
+    border-width: 20px;
+    border-color: #183153;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.sphere1 {
+    background-color: #ebeff3;
+    border-radius: 150px;
+    width: 180px;
+    height: 180px;
+    padding-top: 37px;
+    margin-top: 20px;
+    margin-left: 20%;
+    position: relative;
+    left: 0;
+}
+
+.sphere2 {
+    background-color: #ebeff3;
+    border-radius: 150px;
+    width: 180px;
+    height: 90px;
+    padding-top: 22px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 20%;
+    position: relative;
+    right: -66%;
+}
+
+.sphere3 {
+    background-color: #ebeff3;
+    border-radius: 150px;
+    width: 180px;
+    height: 140px;
+    padding-top: 37px;
+    margin-top: 20px;
+    position: relative;
+}
+
+/*-------------------------------IMAGES AND ETC-------------------------------*/
+
+.fade1 {
+   position: fixed;
+   bottom: -40px;
+   width: 100%;
+   display: inline-block;
+   object-fit: fill;
+   z-index: 999;
+}
+
+.fade2 {
+    position: fixed;
+    top: -55px;
+    width: 100%;
+    display: inline-block;
+    object-fit: fill;
+    z-index: 999;
+    rotate: 180deg;
+ }
+
+ .Html-bubble {
+    position: relative;
+    width: 100px;
+    margin-left: 23%;
+ }
+ 
+ .Gamepad-bubble {
+    position: relative;
+    width: 100px;
+    margin-right: 23%;
+ }
+
+.film-bubble {
+    position: relative;
+    width: 100px;
+ }
+
+ /*-------------------------------ALT STATES (HOVER AND ETC)-------------------------------*/
+
+ .nav-bar:hover {
+    transition-duration: 1s;
+    position: fixed;
+    z-index: 999;
+    padding: 10px;
+    background-color: white;
+    width: 500px;
+    border-bottom-left-radius: 30px;
+    right: 0;
+    color: black;
+    height: 54px;
+    
+}
